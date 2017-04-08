@@ -76,7 +76,7 @@ my_credential:
     google_json_key_location: /path/to/my-project-xxxxxxxxxxxx.json
 ```
 
-Or simply `cat .fog.example >> ~.fog` and edit parameters in the file.
+Or simply `cat .fog.example >> ~/.fog` and edit parameters in the file.
 
 You can also provide service account credentials with `google_json_key_string` or with `google_key_location` and `google_key_string` for P12 private keys.
 
